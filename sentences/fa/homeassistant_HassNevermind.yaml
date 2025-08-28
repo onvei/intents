@@ -1,7 +1,8 @@
 language: fa
-
 intents:
   HassNevermind:
     data:
       - sentences:
+          - "بیخیال"
+          - "ولش کن"
           - "مهم نیست"

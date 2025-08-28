@@ -1,0 +1,17 @@
+---
+# HassLightSet - name_brightness
+# example: set the overhead light brightness to 50%
+# slots:
+# - {name}
+# - {brightness}
+# name domains: light
+
+language: "fa"
+
+data:
+  - sentences:
+      - "روشنایی {name} را به {brightness} درصد تنظیم کن"
+      - "روشنایی {name} را روی {brightness} درصد بگذار"
+    name_domains:
+      - "light"
+    response: "brightness"

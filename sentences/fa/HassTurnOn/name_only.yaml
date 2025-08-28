@@ -1,0 +1,26 @@
+---
+# HassTurnOn - name_only
+# example: turn on the overhead light
+# slots: {name}
+
+language: "fa"
+data:
+  - sentences:
+      - "{name} را روشن کن"
+      - "{name} را فعال کن"
+      - "{name}"
+    name_domains:
+      - "light"
+      - "switch"
+      - "fan"
+      - "media_player"
+      - "input_boolean"
+    response: "default"
+
+  # covers
+  - sentences:
+      - "{name} را باز کن"
+    name_domains:
+      - "cover"
+      - "valve"
+    response: "cover"

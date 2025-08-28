@@ -1,0 +1,12 @@
+---
+# HassMediaSearchAndPlay - area_only
+# example: play Pink Floyd in the Kitchen
+# slots:
+# - {area}
+# - {search_query}
+
+language: "fa"
+data:
+  - sentences:
+      - "{search_query} را در {area} پخش کن"
+    response: "default"

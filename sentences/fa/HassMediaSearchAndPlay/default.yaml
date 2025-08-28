@@ -1,0 +1,10 @@
+---
+# HassMediaSearchAndPlay - default
+# example: play Pink Floyd
+# slots: {search_query}
+
+language: "fa"
+data:
+  - sentences:
+      - "{search_query} را پخش کن"
+    response: "default"

@@ -1,0 +1,6 @@
+language: "fa"
+intents:
+  HassBroadcast:
+    data:
+      - sentences:
+          - "اعلان بده {message}"

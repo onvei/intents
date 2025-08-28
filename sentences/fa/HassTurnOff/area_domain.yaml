@@ -1,0 +1,13 @@
+---
+# HassTurnOff - area_domain
+# example: turn off the lights in the kitchen
+# slots: {area}
+
+language: "fa"
+
+data:
+  - sentences:
+      - "چراغ‌های {area} را خاموش کن"
+      - "همه چراغ‌ها در {area} را خاموش کن"
+    inferred_domain: "light"
+    response: "lights_area"

@@ -1,0 +1,13 @@
+---
+# HassTurnOn - domain_only
+# English example: turn on the lights in here
+# context_area: true
+
+language: "fa"
+
+data:
+  - sentences:
+      - "چراغ‌ها را روشن کن"
+      - "همه چراغ‌ها را روشن کن"
+    inferred_domain: "light"
+    response: "lights_area"

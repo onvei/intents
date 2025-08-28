@@ -1,0 +1,13 @@
+---
+# HassTurnOn - area_domain
+# example: turn on the lights in the kitchen
+# slots: {area}
+
+language: "fa"
+
+data:
+  - sentences:
+      - "چراغ‌های {area} را روشن کن"
+      - "همه چراغ‌ها در {area} را روشن کن"
+    inferred_domain: "light"
+    response: "lights_area"
