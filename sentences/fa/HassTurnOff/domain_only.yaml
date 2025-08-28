@@ -1,0 +1,13 @@
+---
+# HassTurnOff - domain_only
+# example: turn off the lights in here
+# context_area: true
+
+language: "fa"
+
+data:
+  - sentences:
+      - "چراغ‌ها را خاموش کن"
+      - "همه چراغ‌ها را خاموش کن"
+    inferred_domain: "light"
+    response: "lights_area"

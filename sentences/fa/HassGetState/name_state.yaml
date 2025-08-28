@@ -1,0 +1,15 @@
+---
+# HassGetState - name_state
+# example: is the sliding door open
+# slots:
+# - {name}
+# - {state}
+
+language: "fa"
+
+data:
+  - sentences:
+      - "آیا {name} {cover_states:state} است؟"
+    name_domains:
+      - "cover"
+    response: "one_yesno"

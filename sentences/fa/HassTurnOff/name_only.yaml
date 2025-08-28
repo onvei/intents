@@ -1,0 +1,26 @@
+---
+# HassTurnOff - name_only
+# example: turn off the overhead light
+# slots: {name}
+
+language: "fa"
+
+data:
+  - sentences:
+      - "{name} را خاموش کن"
+      - "{name} را غیر فعال کن"
+    name_domains:
+      - "light"
+      - "switch"
+      - "fan"
+      - "media_player"
+      - "input_boolean"
+    response: "default"
+
+  # covers
+  - sentences:
+      - "{name} را ببند"
+    name_domains:
+      - "cover"
+      - "valve"
+    response: "cover"

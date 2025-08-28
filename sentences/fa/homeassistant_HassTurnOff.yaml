@@ -3,4 +3,17 @@ intents:
   HassTurnOff:
     data:
       - sentences:
-          - "{name} (را | رو) خاموش کن"
+          - "{name} را خاموش کن"
+          - "{name} رو خاموش کن"
+          - "{area} {name} را خاموش کن"
+          - "{area} {name} رو خاموش کن"
+          - "{name} را در {area} خاموش کن"
+          - "{name} رو در {area} خاموش کن"
+        excludes_context:
+          domain:
+            - binary_sensor
+            - cover
+            - lock
+            - scene
+            - script
+            - sensor

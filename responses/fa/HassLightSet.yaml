@@ -2,7 +2,7 @@ language: fa
 responses:
   intents:
     HassLightSet:
-      brightness: "{{ slots.name }} brightness set to {{ slots.brightness }}"
-      brightness_area: Brightness in {{ slots.area }} set to {{ slots.brightness }}
-      color: "{{ slots.name }} color set to {{ slots.color }}"
-      color_area: Color in {{ slots.area }} set to {{ slots.color }}
+      brightness: روشنایی {{ slots.name }} روی {{ slots.brightness }} تنظیم شد
+      brightness_area: روشنایی در {{ slots.area }} روی {{ slots.brightness }} تنظیم شد
+      color: رنگ {{ slots.name }} به {{ slots.color }} تنظیم شد
+      color_area: رنگ در {{ slots.area }} به {{ slots.color }} تنظیم شد

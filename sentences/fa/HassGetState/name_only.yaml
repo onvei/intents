@@ -1,0 +1,13 @@
+---
+# HassGetState - name_only
+# example: what is the value of sensor 1
+# slots: {name}
+
+language: "fa"
+
+data:
+  - sentences:
+      - "مقدار {name} چیه"
+    name_domains:
+      - "sensor"
+    response: "default"

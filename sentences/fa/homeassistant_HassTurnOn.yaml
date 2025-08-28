@@ -3,4 +3,18 @@ intents:
   HassTurnOn:
     data:
       - sentences:
-          - "{name} (را | رو) روشن کن"
+          - "{name} را روشن کن"
+          - "{name} رو روشن کن"
+          - "{area} {name} را روشن کن"
+          - "{area} {name} رو روشن کن"
+          - "{name} را در {area} روشن کن"
+          - "{name} رو در {area} روشن کن"
+        excludes_context:
+          domain:
+            - binary_sensor
+            - cover
+            - lock
+            - scene
+            - script
+            - sensor
+            - valve

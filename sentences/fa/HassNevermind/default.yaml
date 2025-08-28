@@ -1,0 +1,11 @@
+---
+# HassNevermind - default
+# English example: nevermind
+
+language: "fa"
+data:
+  - sentences:
+      - "بیخیال"
+      - "ولش کن"
+      - "مهم نیست"
+    response: "default"

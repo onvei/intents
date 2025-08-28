@@ -1,0 +1,10 @@
+language: fa
+intents:
+  HassVacuumStart:
+    data:
+      - sentences:
+          - "start <name>"
+        requires_context:
+          domain: vacuum
+      - sentences:
+          - <clean> <floor>
