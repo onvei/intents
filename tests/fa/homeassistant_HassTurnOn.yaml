@@ -3,6 +3,7 @@ tests:
   - sentences:
       - ceiling fan را روشن کن
       - ceiling fan رو روشن کن
+      - ceiling fan را فعال کن
     intent:
       name: HassTurnOn
       slots:

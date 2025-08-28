@@ -3,6 +3,7 @@ tests:
   - sentences:
       - bedroom lamp را خاموش کن
       - bedroom lamp رو خاموش کن
+      - bedroom lamp را غیرفعال کن
     intent:
       name: HassTurnOff
       slots:

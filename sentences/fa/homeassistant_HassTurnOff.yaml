@@ -1,11 +1,13 @@
-language: en
+language: fa
 intents:
   HassTurnOff:
     data:
       - sentences:
-          - "<turn> off (<area> <name>|<name> [in <area>])"
-          - "[<turn>] (<area> <name>|<name> [in <area>]) [to] off"
-          - "deactivate (<area> <name>|<name> [in <area>])"
+          - "خاموش کن (<area> <name>|<name> [در <area>])"
+          - "(<area> <name>|<name> [در <area>]) را خاموش کن"
+          - "(<area> <name>|<name> [در <area>]) رو خاموش کن"
+          - "غیرفعال کن (<area> <name>|<name> [در <area>])"
+          - "(<area> <name>|<name> [در <area>]) را غیرفعال کن"
         excludes_context:
           domain:
             - binary_sensor
