@@ -1,7 +1,8 @@
 language: fa
 tests:
   - sentences:
+      - "بیخیال"
+      - "ولش کن"
       - "مهم نیست"
     intent:
       name: HassNevermind
-    response: ""

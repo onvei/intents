@@ -1,0 +1,10 @@
+language: fa
+tests:
+  - sentences:
+      - "close the main valve"
+    intent:
+      name: HassTurnOff
+      slots:
+        domain: "valve"
+        name: "Main Valve"
+    response: "Closed"
