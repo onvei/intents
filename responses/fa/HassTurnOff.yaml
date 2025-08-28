@@ -2,8 +2,14 @@ language: fa
 responses:
   intents:
     HassTurnOff:
-      default: Turned off {{ slots.name }}
-      lights_area: Turned off lights in {{ slots.area }}
-      fans_area: Turned off fans in {{ slots.area }}
-      cover: Closed {{ slots.name }}
-      cover_area: Closed {{ slots.area }}
+      default: "{{ slots.name }} خاموش شد"
+      lights_area: "چراغ‌ها در {{ slots.area }} خاموش شد"
+      lights_floor: "چراغ‌های طبقه خاموش شد"
+      light_all: "همهٔ چراغ‌ها خاموش شد"
+      fans_area: "پنکه‌ها در {{ slots.area }} خاموش شد"
+      fan_all: "همهٔ پنکه‌ها خاموش شد"
+      cover: "{{ slots.name }} بسته شد"
+      cover_area: "{{ slots.area }} بسته شد"
+      cover_device_class: "{{ slots.device_class }} بسته شد"
+      lock: "باز شد"
+      valve: "بسته شد"
