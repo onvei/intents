@@ -1,6 +1,16 @@
-language: fa
+language: en
 intents:
   HassTurnOff:
     data:
       - sentences:
-          - "{name} (را | رو) خاموش کن"
+          - "<turn> off (<area> <name>|<name> [in <area>])"
+          - "[<turn>] (<area> <name>|<name> [in <area>]) [to] off"
+          - "deactivate (<area> <name>|<name> [in <area>])"
+        excludes_context:
+          domain:
+            - binary_sensor
+            - cover
+            - lock
+            - scene
+            - script
+            - sensor

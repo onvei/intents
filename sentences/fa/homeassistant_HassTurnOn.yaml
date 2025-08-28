@@ -1,6 +1,17 @@
-language: fa
+language: en
 intents:
   HassTurnOn:
     data:
       - sentences:
-          - "{name} (را | رو) روشن کن"
+          - "<turn> on (<area> <name>|<name> [in <area>])"
+          - "[<turn>] (<area> <name>|<name> [in <area>]) [to] on"
+          - "activate (<area> <name>|<name> [in <area>])"
+        excludes_context:
+          domain:
+            - binary_sensor
+            - cover
+            - lock
+            - scene
+            - script
+            - sensor
+            - valve
