@@ -1,7 +1,7 @@
-language: fa
-
+language: en
 intents:
   HassNevermind:
     data:
       - sentences:
-          - "مهم نیست"
+          - "nevermind"
+          - "never mind"
